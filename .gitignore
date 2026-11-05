@@ -1,0 +1,17 @@
+# Local tools and generated evidence
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/
+tmp/
+__pycache__/
+
+# Local development notes (kept on this computer)
+/docs/
+
+# Credentials must never be committed
+.env
+.env.*
+!.env.example
+*.pem
+*.key
